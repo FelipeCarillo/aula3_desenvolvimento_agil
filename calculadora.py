@@ -16,7 +16,12 @@ def main():
     y = float(input("Digite o segundo número: "))
     op = int(input("Escolha a operação:\n1-Soma\n2-Subtração\n3-Multiplicação\n4-Divisão"))
     aux = 1
-    while 
-    if op == 1:
-        res = soma(x,y)
-        print("A soma de ",x," e ",y," é: ", res)
+    while aux == 1:
+        if op == 1:
+            res = soma(x,y)
+            print("A soma de ",x," e ",y," é: ", res)
+            input("")
+        elif op == 2:
+            res = subtracao(x,y)
+            print("A subtração de ",x," e ",y," é: ", res)
+        
